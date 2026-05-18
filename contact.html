@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>联系我们 - BASICS 2026 暑期学校 | 中国科学技术大学</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo-area">
+        <img src="images/logo.png" alt="USTC TCS" class="logo">
+        <div class="logo-text">
+          <h1>BASICS Workshop and Summer School 2026</h1>
+        </div>
+      </div>
+      <button class="hamburger" aria-label="菜单"><span></span></button>
+    </div>
+  </header>
+  <div class="mobile-dropdown">
+    <a href="index.html">暑校简介</a>
+    <a href="schedule.html">课程介绍</a>
+    <a href="register.html">报名注册</a>
+    <a href="contact.html" class="active">联系我们</a>
+  </div>
+
+  <div class="container">
+    <aside class="sidebar">
+      <div class="sidebar-section">
+        <h3>BASICS26暑校</h3>
+        <ul>
+          <li><a href="index.html">暑校简介</a></li>
+          <li><a href="schedule.html">课程介绍</a></li>
+          <li><a href="register.html">报名注册</a></li>
+          <li><a href="contact.html" class="active">联系我们</a></li>
+        </ul>
+      </div>
+      <div class="sidebar-section">
+        <h3>快速信息</h3>
+        <div class="quick-info">
+          <p><strong>主题</strong>计数问题</p>
+          <p><strong>时间</strong>2026年7月19日-24日</p>
+          <p><strong>地点</strong>中国科大高新校区</p>
+          <p><strong>报名截止</strong>2026年5月31日</p>
+        </div>
+      </div>
+    </aside>
+
+    <main class="content">
+      <div class="breadcrumb">
+        <a href="index.html">首页</a> &gt; <span>联系我们</span>
+      </div>
+
+      <section class="info-card">
+        <h2 class="section-title">联系方式</h2>
+        <div class="card-body">
+          <p>肖老师：13305630402</p>
+        </div>
+      </section>
+
+      <section class="info-card">
+        <h2 class="section-title">校区地图</h2>
+        <div class="card-body">
+          <img src="images/map.jpg" alt="中国科学技术大学高新校区地图" class="content-img">
+        </div>
+      </section>
+
+      <section class="info-card">
+        <h2 class="section-title">关注公众号</h2>
+        <div class="card-body" style="text-align: center;">
+          <img src="images/wechat.webp" alt="USTC TCS 微信公众号" class="qrcode">
+          <p style="margin-top: 12px; font-size: 14px; color: #616161;">中国科学技术大学计算机学院理论组</p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>中国科学技术大学计算机学院理论组</p>
+      <p>© 2026 BASICS Summer School. All rights reserved.</p>
+    </div>
+  </footer>
+  <script>
+    document.querySelector('.hamburger').addEventListener('click', function() {
+      document.querySelector('.mobile-dropdown').classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
