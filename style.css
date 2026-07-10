@@ -8,6 +8,10 @@
   --text-secondary: #616161;
   --border-color: #e0e6ed;
   --card-shadow: 0 2px 12px rgba(0, 61, 125, 0.08);
+
+  /* 中英文/数字之间的间距交由浏览器在渲染时自动处理，源文本保持无空格。
+     支持 Chrome/Edge 140+、Safari 18.4+、Firefox 145+，旧版浏览器会忽略此属性。 */
+  text-autospace: normal;
 }
 
 * {
