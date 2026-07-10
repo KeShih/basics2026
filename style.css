@@ -347,6 +347,12 @@ a:hover {
   border-radius: 12px;
 }
 
+.schedule-caption {
+  margin: 18px 0 4px;
+  font-weight: 600;
+  color: var(--ustc-blue);
+}
+
 .course-table {
   width: 100%;
   border-collapse: collapse;
